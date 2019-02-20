@@ -574,7 +574,7 @@ And then the pneumatics are used as such:
          void autonomous() {
            adi_digital_write(DIGITAL_SENSOR_PORT, true);
            delay(1000);
-           adi_digital_write(DIGITAL_SENSOR_PORT, false);s
+           adi_digital_write(DIGITAL_SENSOR_PORT, false);
          }
 
    .. group-tab :: C++
